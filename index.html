@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Sorting Visualizer</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <h1>♫ Interactive Sorting Algorithm Visualizer ♫</h1>
+    <h2>ahmadaata0@gmail.com</h2>
+    <div id="container"></div>
+
+    <hr>
+
+    <div>
+        <button class="button" onClick="init()">Randomize Chart 🔁</button>
+        <button class="button" onClick="play('bubble')">Bubble Sort ⏺️</button>
+        <button class="button" onClick="play('insertion')">Insertion Sort ⬇️</button>
+        <button class="button" onClick="play('heap')">Heap Sort 🔼</button>
+    </div>
+
+    &nbsp;&nbsp;&nbsp;
+
+    <div>
+        &nbsp;&nbsp;&nbsp;
+    </div>
+    <div>
+        &nbsp;&nbsp;&nbsp;
+    </div>
+
+    <label for="myRange">Sorting Speed:</label>
+    <div class="slidecontainer">
+        <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+        <p>Value: <span id="demo">50</span></p>
+    </div>
+
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
